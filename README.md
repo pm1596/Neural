@@ -1,1 +1,1 @@
-# Convoltional net for graph/matrix classification
+# Convoltional net for graph/matrix classification using Tensorflow
