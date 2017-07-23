@@ -11,9 +11,9 @@ from  dataset_generation import labels
 # Parameters
 learning_rate = 0.001
 training_iters = 200
+
 #batch_size = 2
 #display_step = 2
-
 # Network Parameters
 no_input = 1024 # matrix dataset input (adj_mat shape: max 32*32)
 no_classes = 2  # output classes -(dense/sparse)
