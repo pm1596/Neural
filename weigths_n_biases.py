@@ -1,20 +1,21 @@
 # Weights and Biases dictionaries
 '''
-#first conv layer ->
+#first convolutional layer
 ->5*5 pixel stride for convolution
 ->input in sigle matrix
 ->output of first conv layer wil be 32 features
 
-# seconf conv layer ->
+# seconf convolutional layer 
 ->5*5 pixel stride for convolution
 -> input is 32 features from first conv layer
 ->output will be 64 features
 
-#fully-connected layer ->
+#fully-connected layer
 -> input is (8*8 result matrix of 2nd pooling )* 64 features
 -> output to 1024 neurons
 
-#output layer -> gives classification of input matrix
+#output layer
+-> gives classification of input matrix
 -> input is from 1024 neurons of fully-connected layer
 -> output will be no of classes ie. 2 (dense/sparse)
 '''
