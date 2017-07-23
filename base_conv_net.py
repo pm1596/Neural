@@ -27,7 +27,7 @@ y = tf.placeholder(tf.float32, [no_classes]) # labels
 
 
 #  wrappers for convolution and pooling
-'''we are using a single stride for convolution without any padding'''
+'''Using a single stride for convolution without padding'''
 def conv2d(x, w, b, strides=1):
     # Conv2D wrapper, with bias and relu activation
     x = tf.nn.conv2d(x, w, strides=[1, strides, strides, 1], padding='SAME')
