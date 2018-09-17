@@ -67,5 +67,3 @@ def labels():
     return result
 
 #labels()
-#Goto()
-@label
