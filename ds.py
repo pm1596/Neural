@@ -128,9 +128,7 @@ def graph_input():
     result=np.array(adj_matrix)
     print (result)
 
-    '''f = open("E:/dataset.txt", 'ab+')
-    f.write( bytes(str(result), "UTF-8" ) )      # str() converts to string
-    f.close()'''
+    
     
     for i in range (0,V):
         data = [result[i]]
